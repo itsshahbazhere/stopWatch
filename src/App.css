@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container {
+  border: 2px solid #646cff;
+  padding: 50px 50px;
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+.container:hover {
+  box-shadow: 0 4px 15px rgba(100, 108, 255, 0.67); 
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+#name {
+  font-size: 3rem; 
+  font-weight: bold; 
+  color: #f9f9f9; 
+  margin:0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+   /* Gradient Background for the text */
+  background: linear-gradient(90deg, #646cff, #ff6a00); /* Set the gradient colors */
+  -webkit-background-clip: text;          /* Clip the gradient background to the text */
+  -webkit-text-fill-color: transparent;    /* Make the text color transparent */
+   
+}
+
+
+
+#timer {
+  font-size: 2.5rem;  
+  font-weight: 700; 
+  color: #ffcc00; 
+  margin: 10px 0 20px 0;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (max-width: 500px) {
+  #name {
+    font-size: 2rem; /* Decrease font size for small screens */
+  }
+}
